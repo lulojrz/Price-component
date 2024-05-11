@@ -147,5 +147,16 @@ body{
     font-size: 14px;
     color: hsl(204, 43%, 93%);
     text-align: left;
+}
 
+
+@media (max-width:600px) {
+    .container{
+        width: 100%;
+        border-radius: 5%;
+        margin: auto;
+        box-shadow: 1px 1px rgb(156, 155, 155);
+        overflow: hidden;
+        
+    }
 }
